@@ -3,14 +3,14 @@ import os
 import pyodbc
 
 # Connection details
-server = 'Lap-Kartik-pande\SQLSERVER2022'
-database = 'test2'
+server = 'Kartik'
+database = 'F1'
 username = 'sa'
 password = 'Kk@12345'
 conn_str = f'DRIVER=ODBC Driver 17 for SQL Server;SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
 # Path to directory containing CSV files
-csv_directory = r'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLSERVER2022\MSSQL\Formula1_csv'
+csv_directory = r'E:\Kartik\Data Science\F1\Formula1_csv'
 
 # Establish connection to SQL Server
 try:

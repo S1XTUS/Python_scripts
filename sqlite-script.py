@@ -33,5 +33,5 @@ def convert_sqlite_to_csv(db_file):
     print("Conversion completed. CSV files are saved in:", output_dir)
 
 if __name__ == "__main__":
-    db_file = r"C:\Users\kartik.pande\Downloads\Formula1.sqlite"  # Specify your SQLite database file path here
+    db_file = r"E:\Kartik\Data Science\F1\Formula1.sqlite"  # Specify your SQLite database file path here
     convert_sqlite_to_csv(db_file)
